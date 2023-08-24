@@ -1,0 +1,17 @@
+{
+    "name": "lap052user/php_api",
+    "description": "fcbpay",
+    "type": "project",
+    "license": "GPL",
+    "minimum-stability": "dev",
+    "require": {
+        "grpc/grpc": "^1.38",
+        "google/protobuf": "^3.17",
+        "google/cloud-firestore": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App"
+        }
+    }
+}
